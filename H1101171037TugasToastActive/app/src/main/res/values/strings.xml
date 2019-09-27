@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">H1101171037 TugasToastActive</string>
+    <string name="button_label_toast">Hallo Risa</string>
+    <string name="button_label_count">CountUp</string>
+    <string name="button_count_down">CountDown</string>
+    <string name="count_initial_value">37</string>
+
+</resources>

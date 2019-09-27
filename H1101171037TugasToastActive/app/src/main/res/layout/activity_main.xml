@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="233dp"
+        android:layout_height="96dp"
+        android:text="@string/button_label_toast"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="233dp"
+        android:layout_height="102dp"
+        android:text="@string/button_label_count"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="233dp"
+        android:layout_height="100dp"
+        android:text="@string/button_count_down"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="242dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="154dp"
+        android:layout_height="179dp"
+        android:text="@string/count_initial_value"
+        android:textSize="55pt"
+        tools:layout_editor_absoluteX="447dp"
+        tools:layout_editor_absoluteY="116dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
